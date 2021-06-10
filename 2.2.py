@@ -7,10 +7,9 @@ Original file is located at
     https://colab.research.google.com/drive/1j1vr1pjC-WHxbAhmOrPlhuhpQIXpKH0h
 """
 
-#кодирование значений 
 import numpy as np
 from sklearn import preprocessing
-
+#кодирование значений 
 input_labels = ['red','black','red','green','black','yellow','white']
 
 encoder = preprocessing.LabelEncoder() 
